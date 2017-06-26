@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "shell script process started..."
 
