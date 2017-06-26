@@ -4,7 +4,7 @@ node {
     stage "Git Checkout"
         git url: "https://github.com/dineshdinch/PipeLineUsingGIT.git"
     stage "Compiling the Project"
-        sh script: "C:/Users/Dinesh/.jenkins/workspace/pipeline_using_git/build.sh"
+        sh script: "https://github.com/dineshdinch/PipeLineUsingGIT/build.sh"
     stage "Pipeline Process Completed"    
         echo "Pipeline Process Completed"
 }
