@@ -1,4 +1,4 @@
-#!/bin/bash
+#!C:/Program Files/Git/bin/bash
 
 echo "shell script process started..."
 
