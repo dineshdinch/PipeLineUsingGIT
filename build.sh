@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd D:/Dinesh_tasks/Jenkins/pipeline_using_git/src
+cd C:/Users/Dinesh/.jenkins/workspace/pipeline_using_git/src
 
 javac PipeLineUsingGIT.java
 
