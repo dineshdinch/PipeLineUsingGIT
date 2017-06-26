@@ -5,7 +5,7 @@ node {
         git url: "https://github.com/dineshdinch/PipeLineUsingGIT.git"
     stage "Compiling the Project"
 		echo "compilation started"
-        bat(returnStdout: true, script: "sh -x -c "pipelinne.sh").trim()
+        bat(returnStdout: true, script: "sh -x -c "pipeline.sh").trim()
     stage "Pipeline Process Completed"    
         echo "Pipeline Process Completed"
 }
